@@ -1,0 +1,119 @@
+.contact-form__content{
+    margin:0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #826046;
+}
+
+.form{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+.form__label--item{
+    color: #826046;
+}
+
+.form__label--required{
+    margin-left: 5px;
+    padding: 4px 6px;
+    color: #ff0000;
+}
+
+.form__group-content{
+    width: 70%;
+    text-align: left;
+}
+
+.form__input--text-name input{
+    padding: 10px;
+    width: 45%;
+    border-radius: 1px;
+    border: none;
+    background: #ddd;
+}
+
+.form__input--text-name input:first-of-type{
+    margin-right: 30px;
+}
+
+.form__input--text-radio label {
+    margin-right: 50px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 1px;
+    border: none;
+    background: #ddd;
+}
+
+.form__input--text input{
+    height: 40px;
+}
+
+.form__input--textarea textarea{
+    height: 180px;
+}
+
+.form__input--text-tel input{
+    padding: 10px;
+    width: 25%;
+    border-radius: 1px;
+    border: none;
+    background: #ddd;
+}
+
+.form__input--text-tel span{
+    width: 10%;
+}
+
+.form__input--text select{
+    padding: 10px;
+    width: 50%;
+    border-radius: 1px;
+    border: none;
+    background: #ddd;
+}
+
+.form__error{
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__button{
+    margin-bottom: 30px;
+}
+
+.form__button-submit{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    background: #826046;
+    color: #fff;
+    cursor: pointer;
+}
