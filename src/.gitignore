@@ -13,3 +13,13 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+storage/logs/*.log
+bootstrap/cache/*.php
+docker/mysql/data
+docker-compose.override.yml
